@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        .navbar {
+            background-color: #2c3e50;
+        }
+        .navbar-brand, .nav-link {
+            color: #ecf0f1 !important;
+        }
+        h2 {
+            color: #2980b9;
+            margin-bottom: 20px;
+        }
+        .card {
+            margin-bottom: 20px;
+            border: none;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .card img {
+            height: 200px;
+            object-fit: cover;
+        }
+        .btn-primary {
+            background-color: #2980b9;
+            border-color: #2980b9;
+        }
+        .btn-primary:hover {
+            background-color: #1f6380;
+            border-color: #1f6380;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="#">My Portfolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- About Section -->
+        <section id="about" class="container my-5">
+            <h2>About Me</h2>
+            <p>Hello! I'm a passionate web developer with a keen eye for detail and a love for crafting interactive, user-friendly websites. My journey into web development started with a fascination for how the web works and a desire to create beautiful, functional digital experiences.</p>
+            
+            <p>With a solid foundation in HTML, CSS, and JavaScript, I've developed a diverse portfolio of projects ranging from dynamic web applications to responsive landing pages. I enjoy solving complex problems and turning ideas into reality through clean and efficient code.</p>
+            
+            <p>My approach to web development is centered around the user. I believe that the best websites are those that provide an intuitive and seamless experience, making it easy for users to navigate and find what they need. I strive to create websites that are not only visually appealing but also fast, accessible, and optimized for all devices.</p>
+            
+            <p>In addition to my technical skills, I am a lifelong learner, always eager to expand my knowledge and keep up with the latest trends in web development. I enjoy working with new technologies and exploring innovative ways to improve the user experience. When I'm not coding, you can find me reading up on new developments in the tech world or experimenting with new design ideas.</p>
+            
+            <p>I am excited to continue growing as a developer and to take on new challenges that push the boundaries of what I can create. Whether working independently or as part of a team, I am committed to delivering high-quality work that meets the needs of clients and exceeds their expectations.</p>
+        </section>
+        
+
+        <!-- Projects Section -->
+        <section id="projects" class="container my-5">
+            <h2>My Projects</h2>
+            <div class="row">
+                <!-- Project Card: Coffee Cafe -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://i.pinimg.com/564x/ca/3b/1c/ca3b1c6fa7727143c96fa1a3bdf3ab9d.jpg" class="card-img-top" alt="Coffee Cafe">
+                        <div class="card-body">
+                            <h5 class="card-title">Coffee Cafe</h5>
+                            <p class="card-text">Developed an e-commerce website for a local coffee shop, featuring an online menu, order system, and customer reviews.</p>
+                            <a href="https://www.starbucks.in/dashboard" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project Card: Memory Game -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://i.pinimg.com/564x/a3/7a/40/a37a40b3ada11712fe24f7eb0a3d7c5b.jpg" class="card-img-top" alt="Memory Game">
+                        <div class="card-body">
+                            <h5 class="card-title">Memory Game</h5>
+                            <p class="card-text">Created an interactive memory game using JavaScript and CSS animations to enhance user engagement and learning.</p>
+                            <a href="https://www.helpfulgames.com/subjects/brain-training/memory.html" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project Card: Newsletter -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://i.pinimg.com/564x/99/42/72/994272351a43f33a1b84f85b14325d0c.jpg" class="card-img-top" alt="Newsletter">
+                        <div class="card-body">
+                            <h5 class="card-title">Newsletter</h5>
+                            <p class="card-text">Designed a responsive newsletter sign-up page with validation and integration with an email marketing service.</p>
+                            <a href="https://www.nytimes.com/newsletters" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project Card: Location Finder -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://i.pinimg.com/564x/4b/f9/7f/4bf97fa899018ec2660582096a2f8245.jpg" class="card-img-top" alt="Location Finder">
+                        <div class="card-body">
+                            <h5 class="card-title">Location Finder</h5>
+                            <p class="card-text">Developed a location-based service application that allows users to find nearby amenities using Google Maps API.</p>
+                            <a href="https://www.site24x7.com/tools/find-website-location.html" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project Card: Form Submission -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://i.pinimg.com/474x/13/fa/be/13fabe368d08211706da14d461727b50.jpg" class="card-img-top" alt="Form Submission">
+                        <div class="card-body">
+                            <h5 class="card-title">Form Submission</h5>
+                            <p class="card-text">Implemented a secure form submission system with data validation, server-side processing, and error handling.</p>
+                            <a href="#" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project Card: Quiz Application -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://i.pinimg.com/564x/9f/9f/67/9f9f675fb305b55960da1af999bbdc6f.jpg" class="card-img-top" alt="Quiz Application">
+                        <div class="card-body">
+                            <h5 class="card-title">Quiz Application</h5>
+                            <p class="card-text">Built a dynamic quiz application with multiple-choice questions, score tracking, and feedback for learning reinforcement.</p>
+                            <a href="https://project-number-3-quiz.vercel.app/" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="container my-5">
+            <h2>Contact Me</h2>
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 My Portfolio. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Form submitted successfully!');
+        });
+    </script>
+</body>
+</html>
